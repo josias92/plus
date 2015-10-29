@@ -4,6 +4,34 @@ h1{
   color: aquamarine;
 }
 
+h2, p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+li {
+    font-family: 'Open Sans', sans-serif;
+    color: cadetblue;
+    display: inline-block;
+    list-style: none;
+}
+
+/* navigation */
+
+a:link, a:visited {
+    color: cadetblue;
+    display: block;
+    height: 32px;
+    line-height: 32px;
+    margin-bottom: 10px;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: center;
+    width 120px;
+}
+
+
+
 /* Global
 ================================ */
 
