@@ -55,6 +55,14 @@ img {
 /* Media Queries
 ================================ */
 
+@media screen and (max-width: 960px) {
+    
+    h1 {
+    font-size: 100px;
+    }
+
+}
+
 @media (min-width: 1px) and (max-width: 767px)  {
 	.grid-container > [class^="grid-"] {
 		padding-top: 5px;
