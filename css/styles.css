@@ -1,6 +1,11 @@
 body{background-image: url("../img/confectionary.png")}
 h1{
   font-size: 150px;
+  color: cadetblue;
+  transition: all 1s;
+}
+
+h1:hover {
   color: aquamarine;
 }
 
@@ -10,17 +15,25 @@ h2, p {
 
 li {
     font-family: 'Open Sans', sans-serif;
-    color: cadetblue;
     display: inline-block;
     list-style: none;
 }
 
 /* navigation */
 
+a {
+    color: cadetblue;
+    display: inline-block;
+    margin: 0 20px;
+    text-align: center;
+    line-height: 50px;
+    height: 50px;
+    transtion: all .5s;
+}
+
 a:link, a:visited {
     color: cadetblue;
     display: block;
-    height: 32px;
     line-height: 32px;
     margin-bottom: 10px;
     padding: 10px;
@@ -30,7 +43,12 @@ a:link, a:visited {
     width 120px;
 }
 
-
+a:hover {
+    color: white;
+    background: cadetblue;
+    border-radius: 32px;
+    transition: all .5s;
+} 
 
 /* Global
 ================================ */
